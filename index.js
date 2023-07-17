@@ -85,5 +85,6 @@ app.get('/search/:searchQuery', async (req, res)=>{
 const PORT = process.env.PORT || 4005;
 app.listen(PORT, () => console.log('Up & running, *' + PORT))
 
+export default app
 //e.g., con key en query
 // http://localhost:4005/search/samsung%20tab%20s8?api_key=......................
